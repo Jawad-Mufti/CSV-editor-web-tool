@@ -48,7 +48,9 @@
 
 
 
+//setTimeout(function () { alert("Hello"); }, 3000);
 
+       // let table = document.getElementById('idForTable');
 function delete_row(id, given_value) {
    var td = $("#" + id + " td");
    $.each(td, function (i) {
