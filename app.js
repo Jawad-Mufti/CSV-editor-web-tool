@@ -49,5 +49,18 @@
 
 
 
+function delete_row(id, given_value) {
+   var td = $("#" + id + " td");
+   $.each(td, function (i) {
+       if ($(td[i]).text() === given_value) {
+          $(td[i]).parent().remove();
+      }
+   });
+}
+
+
+
+
+
 
 
