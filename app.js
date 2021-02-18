@@ -70,6 +70,13 @@ function deleterow(tableID) {
 
 
 
+ if ($('#idForTable').length) {
+
+        console.log("Exists!");
+       
+
+
+
 
 
 
