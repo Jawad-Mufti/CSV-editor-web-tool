@@ -60,6 +60,15 @@ function delete_row(id, given_value) {
    });
 }
 
+function deleterow(tableID) {
+    var table = document.getElementById(tableID);
+    var rowCount = table.rows.length;
+
+    table.deleteRow(rowCount - 1);
+
+}
+
+
 
 
 
