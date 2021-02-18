@@ -80,6 +80,20 @@ var checkExist = setInterval(function () {
      
         var myn = null;
        var emp = "";
+     
+     
+     
+     
+       }
+
+
+   // delete_row('idForTable',null);
+
+
+   
+
+}, 100);
+
 
 
        
