@@ -77,6 +77,10 @@ var checkExist = setInterval(function () {
       clearInterval(checkExist);
        document.getElementById("upload").disabled = true;
         document.getElementById("fileUpload").disabled = true;
+     
+        var myn = null;
+       var emp = "";
+
 
        
 
