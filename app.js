@@ -69,7 +69,7 @@ function deleterow(tableID) {
 }
 
 
-
+var checkExist = setInterval(function () {
  if ($('#idForTable').length) {
 
         console.log("Exists!");
