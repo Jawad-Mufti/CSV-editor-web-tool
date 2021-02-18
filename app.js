@@ -73,6 +73,11 @@ function deleterow(tableID) {
  if ($('#idForTable').length) {
 
         console.log("Exists!");
+     
+      clearInterval(checkExist);
+       document.getElementById("upload").disabled = true;
+        document.getElementById("fileUpload").disabled = true;
+
        
 
 
