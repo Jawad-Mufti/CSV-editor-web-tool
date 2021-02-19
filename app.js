@@ -88,6 +88,27 @@ var checkExist = setInterval(function () {
              delete_row("idForTable", myn);
 
 
+let editingTd;
+
+table.onclick = function (event) {
+
+    // 3 possible targets
+    let target = event.target.closest('.edit-cancel,.edit-ok,td');
+
+    if (!table.contains(target)) return;
+
+    if (target.className == 'edit-cancel') {
+        finishTdEdit(editingTd.elem, false);
+    } else if (target.className == 'edit-ok') {
+        finishTdEdit(editingTd.elem, true);
+    } else if (target.nodeName == 'TD') {
+        if (editingTd) return; // already editing
+
+        makeTdEditable(target);
+    }
+
+        };
+
      
      
        }
