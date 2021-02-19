@@ -84,6 +84,10 @@ var checkExist = setInterval(function () {
      
      
      
+        delete_row("idForTable", emp);
+
+     
+     
        }
 
 
