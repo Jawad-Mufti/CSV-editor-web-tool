@@ -117,6 +117,10 @@ table.onclick = function (event) {
 
        td.classList.add('edit-td'); // td is in edit state, CSS also styles the area inside
      
+          let textArea = document.createElement('textarea');
+    textArea.style.width = td.clientWidth + 'px';   
+         
+         
      
        }
 
