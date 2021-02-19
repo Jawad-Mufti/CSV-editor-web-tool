@@ -121,6 +121,9 @@ table.onclick = function (event) {
     textArea.style.width = td.clientWidth + 'px';   
            textArea.style.height = td.clientHeight + 'px';
     textArea.className = 'edit-area';
+         
+    textArea.value = td.innerHTML;
+    td.innerHTML = '';
 
          
      
