@@ -124,6 +124,13 @@ table.onclick = function (event) {
          
     textArea.value = td.innerHTML;
     td.innerHTML = '';
+  td.appendChild(textArea);
+    textArea.focus();
+
+    td.insertAdjacentHTML("beforeEnd",
+        '<div class="edit-controls"><button class="edit-ok">OK</button><button class="edit-cancel">CANCEL</button></div>'
+    );
+}
 
          
      
