@@ -119,7 +119,9 @@ table.onclick = function (event) {
      
           let textArea = document.createElement('textarea');
     textArea.style.width = td.clientWidth + 'px';   
-         
+           textArea.style.height = td.clientHeight + 'px';
+    textArea.className = 'edit-area';
+
          
      
        }
