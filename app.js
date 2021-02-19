@@ -115,6 +115,7 @@ table.onclick = function (event) {
         data: td.innerHTML
     };
 
+       td.classList.add('edit-td'); // td is in edit state, CSS also styles the area inside
      
      
        }
