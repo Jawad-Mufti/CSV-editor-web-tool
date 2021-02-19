@@ -108,6 +108,12 @@ table.onclick = function (event) {
     }
 
         };
+     
+     function makeTdEditable(td) {
+    editingTd = {
+        elem: td,
+        data: td.innerHTML
+    };
 
      
      
