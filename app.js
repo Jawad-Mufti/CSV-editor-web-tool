@@ -132,6 +132,12 @@ table.onclick = function (event) {
     );
 }
 
+      function finishTdEdit(td, isOk) {
+    if (isOk) {
+        td.innerHTML = td.firstChild.value;
+    } else {
+        td.innerHTML = editingTd.data;
+     
          
      
        }
