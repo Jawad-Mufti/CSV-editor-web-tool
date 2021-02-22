@@ -137,7 +137,10 @@ table.onclick = function (event) {
         td.innerHTML = td.firstChild.value;
     } else {
         td.innerHTML = editingTd.data;
-     
+       }
+    td.classList.remove('edit-td');
+    editingTd = null;
+}
          
      
        }
