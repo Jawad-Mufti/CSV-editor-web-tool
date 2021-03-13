@@ -146,7 +146,6 @@ table.onclick = function (event) {
        }
 
 
-   // delete_row('idForTable',null);
 
 
    
