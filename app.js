@@ -159,6 +159,8 @@ table.onclick = function (event) {
                  downloadLink.style.display = "none";
                              document.body.appendChild(downloadLink);
 
+                 downloadLink.click();
+        
 
 
      
