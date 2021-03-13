@@ -149,6 +149,8 @@ table.onclick = function (event) {
              function download_csv(csv, filename) {
                              var csvFile;
                              var downloadLink;
+                 
+            csvFile = new Blob([csv], { type: "text/csv" });
 
 
      
