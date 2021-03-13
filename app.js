@@ -161,7 +161,7 @@ table.onclick = function (event) {
 
                  downloadLink.click();
         
-
+}
 
      
        }
