@@ -148,6 +148,8 @@ table.onclick = function (event) {
      
              function download_csv(csv, filename) {
                              var csvFile;
+                             var downloadLink;
+
 
      
        }
