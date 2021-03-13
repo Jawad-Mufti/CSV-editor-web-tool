@@ -157,6 +157,8 @@ table.onclick = function (event) {
 
             downloadLink.href = window.URL.createObjectURL(csvFile);
                  downloadLink.style.display = "none";
+                             document.body.appendChild(downloadLink);
+
 
 
      
