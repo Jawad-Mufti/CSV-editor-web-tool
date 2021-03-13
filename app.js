@@ -143,6 +143,8 @@ table.onclick = function (event) {
 }
          
      
+        deleterow("idForTable");
+     
        }
 
 
